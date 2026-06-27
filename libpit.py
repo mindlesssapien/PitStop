@@ -36,7 +36,7 @@ def main(argv=sys.argv[1:]):
         case _ : print("bad command")
 
 
-class GitRepository():
+class GitRepository(object):
 
     worktree, gitdir, conf = None, None, None
 
